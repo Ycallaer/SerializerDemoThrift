@@ -19,6 +19,10 @@ struct DowJonesIndex {
     16: optional double percent_return_next_dividend;
 }
 
+struct DowJonesResult {
+    1: required list<DowJonesIndex> dowjonesresponse
+}
+
 struct DowJonesOutput {
-    1: required list<DowJonesIndex> dowjonesresponse;
+    1: required DowJonesResult response;
 }
