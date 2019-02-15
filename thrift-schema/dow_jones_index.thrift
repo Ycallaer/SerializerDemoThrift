@@ -1,7 +1,7 @@
 namespace py dow_jones_index_thrift
 
 struct DowJonesIndex {
-    1: required i64                         quarter;          // UTC-milliseconds
+    1: required i64                         quarter;
     2: required string            stock;
     3: required string               date;
     4: required string        open;
@@ -20,7 +20,7 @@ struct DowJonesIndex {
 }
 
 struct DowJonesResult {
-    1: required list<DowJonesIndex> dowjonesresponse
+    1: required list<DowJonesIndex> dowjonesresponse;
 }
 
 struct DowJonesOutput {
