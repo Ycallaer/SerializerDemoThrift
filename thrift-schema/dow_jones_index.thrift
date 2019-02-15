@@ -18,3 +18,7 @@ struct DowJonesIndex {
     15: optional i64 days_to_next_dividend;
     16: optional double percent_return_next_dividend;
 }
+
+struct DowJonesOutput {
+    1: required list<DowJonesIndex> dowjonesresponse;
+}
