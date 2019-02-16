@@ -1,4 +1,4 @@
-#Serializer Demo Thrift
+# Serializer Demo Thrift
 
 ## Goal of repo
 This repo is part of a demo to show how Apache Thrift works in python
